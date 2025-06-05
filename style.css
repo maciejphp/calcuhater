@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffc655;
+    font-family: 'Arial', cursive;
+}
+
+.container {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 5px solid black;
+    background-color: #3f4953;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.display {
+    padding: 10px;
+    width: 100%;
+    /* height: 150px; */
+    min-height: 100px;
+    background-color: #000;
+    border-radius: 20px;
+    background-color: #b7cdda;
+    border: 5px solid black;
+    /* text-align: right; */
+}
+
+.display-question {
+    font-size: 18px;
+    min-height: 18px;
+
+}
+.display-operation {
+    font-size: 25px;
+}
+
+
+.buttons {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: 1fr;
+}
+
+.buttons > button {
+    aspect-ratio: 1;
+    border-radius: 20px;
+    font-size: 30px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.buttons > button:hover, .active {
+    background-color: black;
+    color: white;
+}
+
+
+.pink {
+    background-color: #f584af;
+}
+
+.yellow {
+    background-color: #75c28b;
+}
+
+.blue {
+    background-color: #4983cd;
+}
