@@ -1,6 +1,6 @@
 const buttons = document.querySelector('.buttons');
 const displayQuestion = document.querySelector('.display-question');
-const displayOperation = document.querySelector('.display-operationz');
+const displayOperation = document.querySelector('.display-operation');
 
 const keys = [
     '7', '8', '9', '/',
